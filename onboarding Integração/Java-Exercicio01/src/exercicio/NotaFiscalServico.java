@@ -1,6 +1,6 @@
 package exercicio;
 
-public class NotaFiscalServico extends NotaFiscal{
+public class NotaFiscalServico extends NotaFiscal {
     private String descricaoServico;
 
     public String getDescricaoServico(){

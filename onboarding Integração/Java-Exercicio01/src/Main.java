@@ -8,7 +8,7 @@ public class Main {
         nfServico.setNumero("111111");
         nfServico.setEmitende("Prefeitura Criciuma");
         nfServico.setValor(500.00);
-        nfServico.setDescricaoServico("Exemplo de serviço");
+        nfServico.setDescricaoServico("Manutenção de Computadores");
         System.out.println("Nota Fiscal Serviço: ");
         nfServico.exibirDetalhes();
         System.out.println();
@@ -18,7 +18,7 @@ public class Main {
         nfProduto.setEmitende("Empresa");
         nfProduto.setValor(1000.0);
         nfProduto.setDescricaoProduto("Computador");
-        System.out.println("Nota fiscal do produto");
+        System.out.println("Nota fiscal do produto: ");
         nfProduto.exibirDetalhes();
         System.out.println();
 
